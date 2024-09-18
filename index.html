@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO: Changer le titre -->
     <title>Mon Blog</title>
 </head>
 <body>
@@ -11,8 +12,8 @@
             <!-- TODO: Ajouter une logo
             - Ajouter le nom du site
             - Ajouter des  liens raccourcis pour acceder des contenus directement -->
-            <a href="">Accueil</a>
-            <a href="">A propos</a>
+            <a href="">logo</a>
+            <a href="#installation">Comment installer WSL</a>
         </nav>
     </header>
     <main>
@@ -20,19 +21,24 @@
         <h1>Comment utiliser Linux sur Windows?</h1>
         <section>     
         </section>
-        <section>
+        <section id="">
             <h2>Qu'est-ce que c'est WSL ?</h2>
             <p>Le Sous-Système Linux pour Windows permet d’exécuter une distribution Linux 
                 directement sur Windows, ce qui vous permettra d’utiliser des commandes, 
-                applications et outils linux sans besoin de faire un dualboot ou installer 
+                applications et outils linux sans avoir besoin de faire un dualboot ou installer 
                 une machine virtuelle traditionnelle.</p>
         </section>
-        <section>
+        <section id="installation">
             <!-- TODO: Ajouter une image -->
             <h2>Comment installer WSL</h2>   
-            <p>Pour installer WSL ouvrez l’application Powershell en mode Administrateur et
-                 tapez la commande qui va installer WSL ainsi qu’une distribution par défaut (Ubuntu) :</p>
-                <code>wsl --install</code>
+            <p>Pour installer WSL ouvrez l’application Powershell en mode Administrateur</p>
+            <img src="assets/images/powershell.png" alt="ouvrir powershell en tant qu'administrateur">
+            <p>Sur Powershell tapez la commande qui va installer WSL ainsi qu’une distribution par défaut (Ubuntu) :</p>
+            <code>wsl --install</code>
+            <img src="assets/images/wsl_install.png" alt="Commande pour installer WSL">
+            <p>Une fois installé, Ubuntu vous demandera de saisir un nom d'utilisateur et un mot de passe pour votre machine.</p>
+            <img src="assets/images/ubuntu.png" alt="saisir nom d'utilisateur et mot passe">
+            <p>Ca y est! Tout est prêt!</p>
         </section>
         <section>
             <!-- TODO: 
